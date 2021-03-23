@@ -13,7 +13,7 @@ Several color tags and modifiers can be used in the same tag if they are separat
 ### Modifiers
   (B)old (U)nderlined (I)nverted/reversed (RS)=reset/default
 
-###M acros/Shortcuts
+### Macros/Shortcuts
   (warning)   = Yellow, Bold
   (error)     = Red   , Bold, Underlined
 
