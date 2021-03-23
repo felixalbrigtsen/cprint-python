@@ -1,7 +1,10 @@
 # Felix Albrigtsen 2021
 
+#Usage: cprint("%MARKERS[, ..]% text").
+#Example: cprint("%b,U% This is blue and underlined")
 
-#Consider putting the \u001b[ outside, only store changing parts
+#Consider hardcoding \u001b[ in getSequence(), only store the variable part in a dict
+#Currently keeping it this way to avoid hardcoding, simplify adapting to other terminals.
 escSeq = {
     # Modifiers:
     "B": "\u001b[1m",      #Bold
